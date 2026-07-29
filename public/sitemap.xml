@@ -2,38 +2,38 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/comic/001-dainoi/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/001-dainoi/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/002-simpatia-por-el-demonio/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/002-simpatia-por-el-demonio/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/003-luces-y-reflexiones/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/003-luces-y-reflexiones/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/004-buenos-por-conocer/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/004-buenos-por-conocer/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/005-entes-del-pasado/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/005-entes-del-pasado/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/006-recuerdos-marchitos/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/006-recuerdos-marchitos/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/007-reunidos/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/007-reunidos/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/008-el-sol-vuelve-a-salir/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/008-el-sol-vuelve-a-salir/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/comic/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/comic/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>http://localhost:1313/blizzard-brawler/tags/</loc>
   </url>
 </urlset>

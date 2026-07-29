@@ -10,16 +10,18 @@
 <body>
   <header>
     <div class="header-inner">
-      <h1><a href="{{ "/" | relURL }}"><img src="{{ "img/logo.png" | relURL }}" alt="{{ .Site.Title }}" class="site-logo"></a></h1>
+      <h1><a href="{{ "" | relURL }}"><img src="{{ "img/logo.png" | relURL }}" alt="{{ .Site.Title }}" class="site-logo"></a></h1>
       <nav>
-        <a href="{{ "/" | relURL }}">Último capítulo</a>
-        <a href="{{ "/comic/" | relURL }}">Capítulos anteriores</a>
+        <nav>
+          <a href="{{ "" | relURL }}">Último capítulo</a>
+          <a href="{{ "comic/" | relURL }}">Capítulos anteriores</a>
+        </nav>
       </nav>
       <div class="header-social">
-        <a href="https://facebook.com/tu-pagina" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon">
+        <a href="https://facebook.com/blizzardbrawler" target="_blank" rel="noopener" aria-label="Facebook" class="social-icon">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.5 9.9v-7H7.9V12h2.6V9.8c0-2.6 1.5-4 3.9-4 1.1 0 2.3.2 2.3.2v2.5h-1.3c-1.3 0-1.7.8-1.7 1.6V12h2.9l-.5 2.9h-2.4v7A10 10 0 0 0 22 12z"/></svg>
         </a>
-        <a href="https://twitter.com/tu-usuario" target="_blank" rel="noopener" aria-label="Twitter / X" class="social-icon">
+        <a href="https://twitter.com/BlizzardBrawler" target="_blank" rel="noopener" aria-label="Twitter / X" class="social-icon">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.9 2H22l-7.6 8.7L23.3 22h-7l-5.5-6.7L4.6 22H1.5l8.1-9.3L1 2h7.2l5 6.1L18.9 2zm-1.2 18h1.7L7.4 4H5.6l12.1 16z"/></svg>
         </a>
       </div>
