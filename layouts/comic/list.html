@@ -6,7 +6,7 @@
   {{ range $pages }}
     <a href="{{ .Permalink }}" class="archive-item">
       {{ with .Params.images }}
-        <img src="{{ index . 0 }}" alt="{{ $.Title }}" class="archive-thumb">
+        <img src="{{ index . 0 | relURL }}" alt="{{ $.Title }}" class="archive-thumb">
       {{ end }}
       <p>{{ .Title }}</p>
     </a>

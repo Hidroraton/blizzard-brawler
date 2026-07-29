@@ -5,7 +5,7 @@
       <p>{{ . }}</p>
     </div>
     <div class="synopsis-image">
-      <img src="/img/mini.png" alt="">
+      <img src="{{ "img/mini.png" | relURL }}" alt="">
     </div>
   </div>
 {{ end }}
@@ -20,7 +20,7 @@
     <h1>{{ .Title }}</h1>
     <div class="comic-scroll">
       {{ range .Params.images -}}
-      <img src="{{ . }}" alt="{{ $.Title }}" class="comic-strip-img">
+      <img src="{{ . | relURL }}" alt="{{ $.Title }}" class="comic-strip-img">
       {{ end -}}
     </div>
   </div>

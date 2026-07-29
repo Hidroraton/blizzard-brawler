@@ -23,7 +23,7 @@ body {
       #05070C 100%
     );
   background-image:
-    url("/img/ice-texture.png"),
+    url("../img/ice-texture.png"),
     linear-gradient(
       to bottom,
       #05070C 0%,
