@@ -1,0 +1,15 @@
+{{ define "main" }}
+<h1 class="comic-archive">{{ .Title }}</h1>
+
+<div class="archive-grid">
+  {{ $pages := .Pages.ByWeight.Reverse }}
+  {{ range $pages }}
+    <a href="{{ .Permalink }}" class="archive-item">
+      {{ with .Params.images }}
+        <img src="{{ index . 0 }}" alt="{{ $.Title }}" class="archive-thumb">
+      {{ end }}
+      <p>{{ .Title }}</p>
+    </a>
+  {{ end }}
+</div>
+{{ end }}

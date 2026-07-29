@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "social-bar.html" . }}
+<div class="comic-chapter">
+  <h1>{{ .Title }}</h1>
+
+  <div class="comic-scroll">
+    {{ range .Params.images -}}
+      <img src="{{ . }}" alt="{{ $.Title }}" class="comic-strip-img">
+    {{ end -}}
+  </div>
+
+  <nav class="comic-nav">
+    {{ $pages := .CurrentSection.Pages.ByWeight }}
+    {{ range $i, $p := $pages }}
+      {{ if eq $p.File.Filename $.File.Filename }}
+        {{ if gt $i 0 }}
+          <a href="{{ (index $pages (sub $i 1)).Permalink }}">&laquo; Capítulo anterior</a>
+        {{ else }}
+          <span></span>
+        {{ end }}
+        {{ if lt $i (sub (len $pages) 1) }}
+          <a href="{{ (index $pages (add $i 1)).Permalink }}">Siguiente capítulo &raquo;</a>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </nav>
+</div>
+{{ end }}

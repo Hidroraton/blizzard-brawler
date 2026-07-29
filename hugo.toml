@@ -1,0 +1,6 @@
+baseURL = 'https://blizzardbrawler.com/'
+locale = 'es-es'
+title = 'Blizzard Brawler'
+[params]
+  author = "Hidróxido de carbono"
+  synopsis = """En un mundo asediado por una oscura amenaza conocida como la plaga, la humanidad se encuentra al borde del abismo. Sin embargo, emergen individuos dotados de habilidades sobrenaturales para hacerle frente, conocidos como Los Licht. Entre ellos destaca Dainoi, quien a escasa edad descubre su capacidad para manipular el hielo. Generando así en su papel, un engranaje fundamental para el curso de las cosas"""

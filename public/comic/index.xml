@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Archivo on Blizzard Brawler</title>
+		<link>http://localhost:1313/comic/</link>
+		<description>Recent content in Archivo on Blizzard Brawler</description>
+		<generator>Hugo</generator>
+		<language>es-es</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="http://localhost:1313/comic/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>1. Dainoi</title>
+				<link>http://localhost:1313/comic/001-dainoi/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/001-dainoi/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>2. Simpatia por el demonio</title>
+				<link>http://localhost:1313/comic/002-simpatia-por-el-demonio/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/002-simpatia-por-el-demonio/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>3. Luces y reflexiones</title>
+				<link>http://localhost:1313/comic/003-luces-y-reflexiones/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/003-luces-y-reflexiones/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>4. Buenos por conocer</title>
+				<link>http://localhost:1313/comic/004-buenos-por-conocer/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/004-buenos-por-conocer/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>5. Entes del pasado</title>
+				<link>http://localhost:1313/comic/005-entes-del-pasado/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/005-entes-del-pasado/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>6. Recuerdos marchitos</title>
+				<link>http://localhost:1313/comic/006-recuerdos-marchitos/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/006-recuerdos-marchitos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>7. Reunidos</title>
+				<link>http://localhost:1313/comic/007-reunidos/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/007-reunidos/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>8. El sol vuelve a salir</title>
+				<link>http://localhost:1313/comic/008-el-sol-vuelve-a-salir/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>http://localhost:1313/comic/008-el-sol-vuelve-a-salir/</guid>
+				<description></description>
+			</item>
+	</channel>
+</rss>

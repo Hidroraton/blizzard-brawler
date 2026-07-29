@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ with .Site.Params.synopsis }}
+  <div class="synopsis-box">
+    <div class="synopsis-text">
+      <p>{{ . }}</p>
+    </div>
+    <div class="synopsis-image">
+      <img src="/img/mini.png" alt="">
+    </div>
+  </div>
+{{ end }}
+  <div class="section-divider">
+    <span>Último capítulo subido</span>
+  </div>
+{{ $pages := (where .Site.RegularPages "Section" "comic").ByWeight }}
+{{ $pages := (where .Site.RegularPages "Section" "comic").ByWeight }}
+{{ $lastIndex := sub (len $pages) 1 }}
+{{ with index $pages $lastIndex }}
+  <div class="comic-chapter">
+    <h1>{{ .Title }}</h1>
+    <div class="comic-scroll">
+      {{ range .Params.images -}}
+      <img src="{{ . }}" alt="{{ $.Title }}" class="comic-strip-img">
+      {{ end -}}
+    </div>
+  </div>
+{{ end }}
+{{ end }}
