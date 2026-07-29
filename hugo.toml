@@ -1,4 +1,4 @@
-baseURL = "https://hidroraton.github.io/blizzard-brawler/"'
+baseURL = "https://hidroraton.github.io/blizzard-brawler/"
 locale = 'es-es'
 title = 'Blizzard Brawler'
 [params]
