@@ -40,5 +40,5 @@ images:
 - "img/comic/cap02/35.png"
 - "img/comic/cap02/36.png"
 - "img/comic/cap02/37.png"
-- "img/comic/cap02/28.png"
+- "img/comic/cap02/38.png"
 ---
