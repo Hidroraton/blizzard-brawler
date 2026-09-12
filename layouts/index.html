@@ -17,6 +17,7 @@
 {{ $lastIndex := sub (len $pages) 1 }}
 {{ with index $pages $lastIndex }}
   <div class="comic-chapter">
+    <p class="chapter-eyebrow">ÚLTIMO CAPÍTULO SUBIDO</p>
     <h1>{{ .Title }}</h1>
     <div class="comic-scroll">
       {{ range .Params.images -}}
