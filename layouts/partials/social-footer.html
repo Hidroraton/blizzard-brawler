@@ -1,0 +1,37 @@
+<div class="social-footer" id="social-footer">
+  <div class="social-footer-inner">
+    <span class="social-footer-text">Síguenos en nuestras redes sociales</span>
+    <div class="social-footer-icons">
+      <a href="https://facebook.com/tu-pagina" target="_blank" rel="noopener" aria-label="Facebook">
+        <img src="{{ "img/chibi3.png" | relURL }}" alt="Facebook" class="social-footer-icon">
+      </a>
+      <a href="https://instagram.com/tu-usuario" target="_blank" rel="noopener" aria-label="Instagram">
+        <img src="{{ "img/chibi4.png" | relURL }}" alt="Instagram" class="social-footer-icon">
+      </a>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  const bar = document.getElementById('social-footer');
+  if (!bar) return;
+  const threshold = 200;
+  let hasAppeared = false;
+
+  function onScroll() {
+    if (!hasAppeared && window.scrollY > threshold) {
+      bar.classList.add('visible');
+      hasAppeared = true;
+      window.removeEventListener('scroll', onScroll);
+    }
+  }
+  window.addEventListener('scroll', onScroll, { passive: true });
+
+  document.addEventListener('click', function (e) {
+    if (!hasAppeared) return;
+    if (bar.contains(e.target)) return;
+    bar.classList.toggle('visible');
+  });
+})();
+</script>
